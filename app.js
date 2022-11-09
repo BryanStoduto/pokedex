@@ -11,7 +11,8 @@ const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types
             <img class="card-image" alt="${name}"  src="https://pokeapi.co/api/v2/${id}.png"/>
                 <h2 class="card-title">${id}. ${name}</h2>
                 <p class="card-subtitle">${elementTypes.join(' | ')}</p>
-            </li>
+            <h1> teste </h1>
+                </li>
      `
     return accumulator
 
